@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Shop-manager-ms" />
+        <module name="Shop-gateway" />
+        <module name="Shop-zuul" />
+        <module name="Shop-mapper" />
+        <module name="Shop-pojo" />
+        <module name="Shop-contents-ms" />
+        <module name="Shop-eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Shop-contents-ms" target="8" />
+      <module name="Shop-eureka" target="8" />
+      <module name="Shop-Eureka" target="1.8" />
+      <module name="Shop-gateway" target="1.8" />
+      <module name="Shop-manager-ms" target="8" />
+      <module name="Shop-mapper" target="8" />
+      <module name="Shop-parent" target="1.8" />
+      <module name="Shop-pojo" target="8" />
+      <module name="Shop-zuul" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Shop-Eureka" options="-parameters" />
+      <module name="Shop-contents-ms" options="-parameters" />
+      <module name="Shop-eureka" options="-parameters" />
+      <module name="Shop-gateway" options="-parameters" />
+      <module name="Shop-manager-ms" options="-parameters" />
+      <module name="Shop-mapper" options="-parameters" />
+      <module name="Shop-parent" options="-parameters" />
+      <module name="Shop-pojo" options="-parameters" />
+      <module name="Shop-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

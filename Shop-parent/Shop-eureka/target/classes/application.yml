@@ -1,0 +1,21 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: eureka-server
+eureka:
+  instance:
+#   host-name: shop-eureka01
+   prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+#eureka:
+#  client:
+#    fetch-registry: false #指定是否要从注册中心获取服务（注册中心不需要开启）
+#    register-with-eureka: false #指定是否要注册到注册中心（注册中心不需要开启）
+#    service-url:
+#      defaultZone: http://localhost:8880/eureka/
+
+
+

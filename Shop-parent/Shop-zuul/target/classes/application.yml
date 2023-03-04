@@ -1,0 +1,25 @@
+ribbon:
+  ReadTimeout: 90000
+  ConnectTimeout: 90000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+server:
+  port: 8801
+spring:
+  application:
+    name: shop-zuul
+zuul:
+  routes:
+    # 下面的信息是设置对应哪个微服务的访问的信息
+    api-query:
+      path: /shopping-manager/**
+      service-id: shopping-sellergoods-ms   #商品的模块（品牌功能、分类功能、模板功能、规格功能）
+    api-content:
+      path: /shopping-content/**
+      service-id: shopping-content-ms   # 对应 广告功能
+
+multipart:
+  maxFileSize: 200MB
+  maxRequestSize: 200MB

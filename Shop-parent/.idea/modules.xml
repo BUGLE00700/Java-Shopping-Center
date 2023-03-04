@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Shop-contents-ms/Shop-contents-ms.iml" filepath="$PROJECT_DIR$/Shop-contents-ms/Shop-contents-ms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shop-eureka/Shop-eureka.iml" filepath="$PROJECT_DIR$/Shop-eureka/Shop-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shop-gateway/Shop-gateway.iml" filepath="$PROJECT_DIR$/Shop-gateway/Shop-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shop-manager-ms/Shop-manager-ms.iml" filepath="$PROJECT_DIR$/Shop-manager-ms/Shop-manager-ms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shop-mapper/Shop-mapper.iml" filepath="$PROJECT_DIR$/Shop-mapper/Shop-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shop-parent.iml" filepath="$PROJECT_DIR$/Shop-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shop-pojo/Shop-pojo.iml" filepath="$PROJECT_DIR$/Shop-pojo/Shop-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shop-zuul/Shop-zuul.iml" filepath="$PROJECT_DIR$/Shop-zuul/Shop-zuul.iml" />
+    </modules>
+  </component>
+</project>
